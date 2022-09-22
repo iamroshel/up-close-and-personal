@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content {
+  /* this is needed or the background will be offset by a few pixels at the top */
+  overflow: auto;
+  position: relative;
+}
+.content1 {
+    font-family: Cursive;
+}
+.content::before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  
+
+  background-image: url("images/Sunflower.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; 
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+    </style>
+</head>
+<body>
+    <div class = "content">
+        <h1 class = "content1">Hi, I am 
+            <a href="aboutMe.html">Roshel</a></h1>
+    </div>    
+</body>
+</html>
