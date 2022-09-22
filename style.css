@@ -1,3 +1,55 @@
-h1{
-    text-align: center;
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+img {
+    float : right;
+    padding-right: 75px; 
+    }   
+.content {
+    padding-left: 80px;
+    font-family: cursive;
+    font-size: 25px;
+    padding-right: 65px;
+  
+}    
+.contactpic {
+  float : right;
+  padding-right: 75px; 
+  filter: blur(3px);
+ 
+  }   
+.facebook, .email, .instagram, .mobile{
+  float : left;
+  padding-top: 1%;
+  }
+.facebookName, .gmail, .instaName, .mobile {
+  float : center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}    
